@@ -1,0 +1,3 @@
+![image-20200306171813508](image/image-20200306171813508.png)
+
+StorageClass 是根据我们的提供的pvc动态的创建pv,并且和pvc绑定起来。

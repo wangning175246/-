@@ -1,0 +1,1 @@
+通过自定义资源扩展Kubernetes https://blog.gmem.cc/crd
