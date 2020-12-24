@@ -2,10 +2,6 @@
 	1. AJAX：
 	2. JSON
 
-
-
-
-
 # AJAX：
 	1. 概念： ASynchronous JavaScript And XML	异步的JavaScript 和 XML
 		1. 异步和同步：客户端和服务器端相互通信的基础上

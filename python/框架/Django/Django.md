@@ -201,7 +201,7 @@ def kwacrticle(request,year,mount):
 
 ## 静态文件处理
 
-![image-20200303104939681](..\..\image\image-20200303104939681.png)
+![image-20200303104939681](images\Django\image-20200303104939681.png)
 
 ## 视图
 
@@ -272,7 +272,7 @@ class Login(ViewSet):
 
 session_data 存储的是加密后的数据，
 
-![image-20200808175931066](C:\Users\18434\OneDrive\笔记\python\框架\Django\image\Django\image-20200808175931066.png)
+![image-20200808175931066](images\Django\image-20200808175931066.png)
 
 下次这个用户发起请求的时候回自动带上这个这个cookie
 
@@ -701,11 +701,11 @@ class User(models.Model):
 
   字段没有加blank的时候,默认为False
 
-  <img src="..\..\image\blank_False.png" alt="blank_True" style="zoom: 67%;" />
+  <img src="images\Django\blank_False.png" alt="blank_True" style="zoom: 67%;" />
 
   加上blank=True的时候
 
-  <img src="..\..\image\blank_true.png" alt="Usemame:etwork Timeline " style="zoom:67%;" />
+  <img src="images\Django\blank_true.png" alt="Usemame:etwork Timeline " style="zoom:67%;" />
 
 * default 默认值,
 
@@ -742,7 +742,7 @@ class User(models.Model):
 
   表中的数据
 
-  <img src="..\..\image\choices.png" alt="表格" style="zoom:67%;" />
+  <img src="images\Django\choices.png" alt="表格" style="zoom:67%;" />
 
   view中进行查询的时候我们可以获取
 
@@ -799,11 +799,11 @@ class User(models.Model):
 
   如果没有定义`__str__` 
 
-![str_exit](..\..\image\str_esxit.png)
+![str_exit](images\Django\str_esxit.png)
 
 ​		如果定义了`__str__`
 
-![image-20191231223547629](..\..\image\str.png)
+![image-20191231223547629](images\Django\str.png)
 
 * 2、在我使用在views中使用mode操作数据的库的时候，使用get方法，或者从filter返回的Queryset对象取出的数据对象，而如果定义的str的，则返回的是str中指定的返回的字段
 

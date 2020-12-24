@@ -17,7 +17,7 @@ tailf的实现、在线协同编辑，如石墨，语雀，腾讯文档
 
 ASGI由Django团队提出，为了解决在一个网络框架中同时处理HTTP,HTTP2,WebSocket协议，Django团队开发了Channels插件,为Django带来了ASGI能力。
 
-![ASGI](..\..\image\2017-03-13-20-20-59.jpg)
+![ASGI](images\集成websocket\2017-03-13-20-20-59.jpg)
 
 ![xx](..\..\image\1564373245921-d2350a29-1ace-42da-a639-e679c28201e4.png)
 

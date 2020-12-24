@@ -28,7 +28,7 @@ pporf开启后，go的运行时每隔一段时间后(10ms)收集当前堆栈信�
   - w 可以是一个网络文件，也可以是本地文件。
 - 停止CPU性能分析pprof.StopCPUProfile()
 
-![image-20200413092548880](C:\Users\18434\OneDrive\笔记\go\基础\image\go优化\image-20200413092548880.png)
+![image-20200413092548880](images\go优化\image-20200413092548880.png)
 
 go tool pprof  .\编译后生成的.exe .\cpu.pprof  会进入交互模式
 
@@ -52,4 +52,4 @@ go tool pprof  .\编译后生成的.exe .\cpu.pprof  会进入交互模式
 
 ​		需要安装graphviz ,而后放到go的环境变量路径种
 
-​		![image-20200413094601124](C:\Users\18434\OneDrive\笔记\go\基础\image\go优化\image-20200413094601124.png)
+​		![image-20200413094601124](images\go优化\image-20200413094601124-1608819846929.png)

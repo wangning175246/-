@@ -12,6 +12,8 @@ NameServer直接启动即可。
 
 Broker分为Master与Slave，一个Master可以对应多个Slave，但是一个Slave只能对应一个Master，Master与Slave的对应关系通过指定相同的BrokerName，不同的BrokerId来定义，BrokerId为0表示Master，非0表示Slave。Master也可以部署多个。每个Broker与Name Server集群中的所有节点建立长连接，定时注册Topic信息到所有Name Server。
 
+![](images\rocketmq\image-20200315122201255-1608818829064.png)
+
 #### Topic
 
 消息存储架构图中主要有下面三个跟消息存储相关的文件构成。
@@ -46,4 +48,4 @@ TPS 服务器每秒处理的事务数，
 
 消费TPS 每秒可以从消息队列中消费的消息数
 
-<img src="image/rocketmq/clip_image001.png" alt="enter image description here" style="zoom: 100%;" />
+<img src="images\rocketmq\clip_image001.png" alt="enter image description here" style="zoom: 100%;" />

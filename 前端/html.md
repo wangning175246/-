@@ -200,7 +200,7 @@ a标签中可以嵌套`img` 、文字
 </select>
 ```
 
-​	![image-20200619163704020](C:\Users\18434\OneDrive\笔记\前端\image\html\image-20200619163704020.png)
+​	![image-20200619163704020](.\images\html\image-20200619163704020.png)
 
 ```html
 <fieldset>

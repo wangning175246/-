@@ -28,11 +28,9 @@ oplog是固定大小，他只能保存特定数量的操作日志，通常oplog�
 
 #### 基本的架构
 
-![image-20200516071614210](C:\Users\18434\OneDrive\笔记\运维\数据库\image\mongodb\image-20200516071614210.png)
+![image-20200516071614210](images\mongodb\image-20200516071614210.png)
 
 mongodb集群
-
-![image-20200516070031606](C:\Users\18434\OneDrive\笔记\知识体系\image\mongodb\image-20200516070031606.png)
 
 部署mongodb集群需要部署4个服务，这4个服务实际都是mongo，只不过在集群中的角色不同。
 

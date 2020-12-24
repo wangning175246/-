@@ -498,7 +498,7 @@ class RoleInfo(APIView):
 
 ## 数据库脚本
 
-![image-20200303102920860](..\..\image\image-20200303102920860.png)
+![image-20200303102920860](images\Rest_Framework\image-20200303102920860.png)
 
 ## 解析器
 
@@ -947,7 +947,7 @@ class UserViewset(viewsets.ReadOnlyModelViewSet):
 
 #### drf的搜索
 
-![image-20200304101517063](C:\Users\18434\OneDrive\笔记\python\框架\Django\image\Rest Framework\image-20200304101517063.png)
+![image-20200304101517063](images\Rest_Framework\image-20200304101517063.png)
 
 filter.SeachFilter 是`from rest_framework import filters`
 
@@ -959,7 +959,7 @@ search_fileds=("^name","goods_brief","goods_desc")
 
 #### 排序
 
-![image-20200304103244340](C:\Users\18434\OneDrive\笔记\python\框架\Django\image\Rest Framework\image-20200304103244340.png)
+![image-20200304103244340](images\Rest_Framework\image-20200304103244340.png)
 
 指定排序的条件
 
@@ -1027,7 +1027,7 @@ search_fileds=("^name","goods_brief","goods_desc")
 
 * 过滤价格在某个值之间的，商品名字是指定字符的
 
-  ![image-20200304101840454](C:\Users\18434\OneDrive\笔记\python\框架\Django\image\Rest Framework\image-20200304101840454.png)
+  ![image-20200304101840454](images\Rest_Framework\image-20200304101840454.png)
 
 * 自定搜索方法
 
